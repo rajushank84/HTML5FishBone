@@ -3,6 +3,7 @@ FishBone widget using HTML5 Canvas and JavaScript
 
 Sample usage
 `
+
 	var data = {
 		elements: ["One","Two","Three", "Four", "Five", "Six", "Seven", "Eight"],
 		result: "Result"
