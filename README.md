@@ -6,7 +6,7 @@ Sample usage
 var data = {
 	elements: ["One","Two","Three", "Four", "Five", "Six", "Seven", "Eight"],
 	result: "Result"
-}
+};
 
 new FishBone(data);
 ```
