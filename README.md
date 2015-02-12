@@ -2,14 +2,14 @@
 FishBone widget using HTML5 Canvas and JavaScript
 
 Sample usage
-`
-	var data = {
-		elements: ["One","Two","Three", "Four", "Five", "Six", "Seven", "Eight"],
-		result: "Result"
-	}
+```
+var data = {
+	elements: ["One","Two","Three", "Four", "Five", "Six", "Seven", "Eight"],
+	result: "Result"
+};
 
-	new FishBone(data);
-`
+new FishBone(data);
+```
 
 See test.html for example
 
