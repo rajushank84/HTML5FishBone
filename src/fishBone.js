@@ -1,7 +1,7 @@
 /* 
 	@description FishBone widget.
 	@author: Natarajan Shanker
-	@example: new FishBone(data, { elements: ["One","Two","Three"],result: "Result" });
+	@example: new FishBone({ elements: ["One","Two","Three"],result: "Result" });
 */
 
 // Array function to split a given array into two arrays
@@ -87,15 +87,15 @@ FishBone.prototype = {
 
 		// the center line
 		ctx.moveTo(20, 150);
-		ctx.lineTo(800, 150);
+		ctx.lineTo(beg, 150);
 		ctx.stroke();
 
 		// the box for the "result"
-		ctx.rect(800, 100, 150, 100);
+		ctx.rect(beg, 100, 120, 100);
 		ctx.stroke();
 
 		// write the "result" text
-		ctx.fillText(this.result, beg, 160);
+		ctx.fillText(this.result, beg + 10, 160);
 		ctx.stroke();
 	},
 
